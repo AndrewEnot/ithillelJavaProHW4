@@ -8,11 +8,9 @@ public class Dog extends Animal {
         super(name);
         dogcounter++;
     }
-
     public static int getDogcounter() {
         return dogcounter;
     }
-
     @Override
     void swim(int distance) {
         if (distance > 10) {
@@ -21,7 +19,6 @@ public class Dog extends Animal {
             super.swim(distance);
         }
     }
-
     @Override
     void run(int distance) {
         if (distance > 500) {
@@ -30,7 +27,7 @@ public class Dog extends Animal {
         super.run(distance);
         }
     }
-    public void dogInfo (int distanceSwim, int distanceRun) {
+    public void move (int distanceSwim, int distanceRun) {
         System.out.println("Introducing " + getClass().getSimpleName() + " " + Dog.this.getName());
         run(distanceRun);
         swim(distanceSwim);

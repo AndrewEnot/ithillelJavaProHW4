@@ -10,20 +10,17 @@ public class Animal {
         this.name = name;
         counter++;
     }
-
     void run (int distance) {
         System.out.println(this.name + " ran " + distance + " m...>");
     }
-
     void swim (int distance) {
         System.out.println(this.name + " swam " + distance + " m...>");
     }
-
     public String getName() {
         return name;
     }
-
     public static int getCounter() {
         return counter;
     }
+
 }
