@@ -20,10 +20,10 @@ public class Cat extends Animal {
         if (distance > 200) {
             System.out.println("Distance " + distance + "m - is to long for " + Cat.this.getName());
         } else {
-        super.run(distance);
+            super.run(distance);
         }
     }
-    public void move (int distanceSwim, int distanceRun) {
+    public void move(int distanceSwim, int distanceRun) {
         System.out.println("Introducing " + getClass().getSimpleName() + " " + Cat.this.getName());
         run(distanceRun);
         swim(distanceSwim);

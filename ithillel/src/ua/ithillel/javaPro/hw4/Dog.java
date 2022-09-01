@@ -27,7 +27,7 @@ public class Dog extends Animal {
         super.run(distance);
         }
     }
-    public void move (int distanceSwim, int distanceRun) {
+    public void move(int distanceSwim, int distanceRun) {
         System.out.println("Introducing " + getClass().getSimpleName() + " " + Dog.this.getName());
         run(distanceRun);
         swim(distanceSwim);

@@ -10,10 +10,10 @@ public class Animal {
         this.name = name;
         counter++;
     }
-    void run (int distance) {
+    void run(int distance) {
         System.out.println(this.name + " ran " + distance + " m...>");
     }
-    void swim (int distance) {
+    void swim(int distance) {
         System.out.println(this.name + " swam " + distance + " m...>");
     }
     public String getName() {
@@ -22,5 +22,4 @@ public class Animal {
     public static int getCounter() {
         return counter;
     }
-
 }
