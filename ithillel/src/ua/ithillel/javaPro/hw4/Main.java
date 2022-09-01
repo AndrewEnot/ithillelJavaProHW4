@@ -3,7 +3,6 @@ package ua.ithillel.javaPro.hw4;
 public class Main {
 
     public static void main(String[] args) {
-
         Cat cat1 = new Cat("Mishanja");
         cat1.move(5,150);
 
@@ -15,6 +14,5 @@ public class Main {
 
         Cat cat2 = new Cat("Apostol");
         cat2.move(50,250);
-
     }
 }
